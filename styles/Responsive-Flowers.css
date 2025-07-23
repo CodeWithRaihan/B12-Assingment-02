@@ -20,7 +20,15 @@
   font-style: normal;
 }
 
-
+/* shared styles */
+.text-primary{
+    font-weight:400;
+    font-size:1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-color{
+    color: rgba(233, 90, 8, 1);
+}
 
 /* Header Related Styles */
  .header{
@@ -37,19 +45,53 @@
 }
 .nav-items{
     display: flex;
+    gap: 48px;
 }
 .item{
     list-style: none;
-    margin-right:48px;
+    
+  
 }
 .links{
      text-decoration: none;
-     color: rgba(137, 135, 161, 1);
+     color: rgba(137, 135, 161, 1);     
 }
 #link-blod{
     font-weight: bold;
     color:rgba(37, 36, 50, 1);
 }
+
+/* banner styles */
+ 
+.banner{
+    display: flex;
+    margin-top: 120px;
+    align-items: end;
+}
+.banner-title {
+     width: 570px;
+     font-weight: 600;
+     font-size: 4rem;
+     padding-top: 162px;
+     margin-bottom: 0;
+}
+.banner-sub-title{
+    margin: 0;
+}
+.banner-img-container{
+     width: 570px;
+}
+
+
+ 
+
+ 
+
+
+
+
+
+
 
 
 
@@ -58,11 +100,33 @@
 /* responsive for mobile devices */
 
 @media screen and (max-width:576px) {
+      .header{
+         margin: 0 16px;
+      }
       .navbar{
-        margin: 0 16px;
         align-items: center;
       }
      .hide-item{
         display: none;
+     }
+     .banner{
+        margin-top: 28px;
+        flex-direction: column-reverse;
+     }
+     .banner-img-container{
+        width: 100%;
+        /* text-align: center; */
+     }
+     .banner-img{
+        max-width: 100%;
+     }
+     .banner-title{
+        width: 100%;
+        font-size: 2.2rem;
+        padding-top: 0;
+     }
+     .banner-sub-title{
+        font-size: 1rem;
+        text-align: left;
      }
 }
