@@ -167,16 +167,68 @@
     top: -45px;
     right: -35px;
 }
+/*Latest Deals styles-s3*/
+  .Latest-Deals-section-s3{
+     max-width: 1140px;
+     margin: 0 auto;
+  }
+  .section-description{
+    padding-left: 265px;
+    padding-right: 265px;
+  }
+  
+  .img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+  }
+  .flower-photo-3{
+    grid-column: 2;
+    grid-row: 1 /span 2;
+  }
+  .image-latest{
+    border-radius:22px ;
+    
+  }
+  .flower-photo-1,.flower-photo-2,.flower-photo-3{
+     position: relative;
+   
+    
+  }
+  .text-container{
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+  
+  .img-title{
+  color: white;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  white-space: nowrap;           
+  }
+  #font-size{
+    font-size: 2.5rem;
+  }
+  .img-links{
+      font-weight: 600;
+      font-size: 1rem;
+     color: white;
+  }
+  #font-size-2{
+     font-size: 1.75rem;
+  }
+  
  
-
  
-
-
-
-
-
-
-
+  
+   
 
 
 
@@ -263,6 +315,31 @@
          font-size: 0.8;
          
     }
+   .img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
+   .image-latest {
+    width: 100%;
+  } 
 
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .section-description{
+    padding: 0;
+  }
+   #font-size{
+    font-size: 1.25rem;
+  }
+  #font-size-2{
+     font-size: 1rem;
+  }
 }
+
