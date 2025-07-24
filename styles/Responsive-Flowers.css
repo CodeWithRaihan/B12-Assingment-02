@@ -134,6 +134,39 @@
      border: none;
 } 
 
+/*flower-lover-section-s2 */
+.flower-lover-section-s2{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+}
+.plant-lover-container{
+    display: flex;
+    gap: 60px;
+    
+}
+.flower-plants-box{
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.plant-title{
+    font-weight: 700;
+    font-size: 3.1rem;
+
+}
+.plant-list li{
+     margin-top: 20px;
+}
+.img-box{
+    max-width: 540px;
+    position: relative;
+}
+.badge{
+    position: absolute;
+    width: 200px;
+    top: -45px;
+    right: -35px;
+}
  
 
  
@@ -157,7 +190,7 @@
       .navbar{
         align-items: center;
       }
-     .hide-item{
+     .hide-item,.badge{
         display: none;
      }
      .banner{
@@ -199,14 +232,37 @@
     .card{
        max-width: 100%;
        margin-left:0;
-       margin-right:0px;
+       margin-right:0;
     }
     .card-button{
         padding: 12px 20px;
     }
-     
 
-
+    .flower-lover-section-s2{
+        margin-top:40px ;
+    }
+    .plant-lover-container{
+        flex-direction: column;
+        gap: 0;
+        padding-left: 15px;
+        padding-right: 15px;    
+    } 
+    .flower-plants-box{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .flower-store-img{
+        max-width: 100%;
+    }
+    .plant-title{
+        font-size: 1.5rem;
+        
+    }
+    .plant-list{
+         margin-top: 10px;
+         font-size: 0.8;
+         
+    }
 
 
 }
