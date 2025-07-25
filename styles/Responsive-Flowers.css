@@ -186,28 +186,20 @@
     grid-column: 2;
     grid-row: 1 /span 2;
   }
-  .image-latest{
-    border-radius:22px ;
+  .image-bg-color{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4));
     
+  }
+  .image-latest{
+    border-radius: 22px;
   }
   .flower-photo-1,.flower-photo-2,.flower-photo-3{
      position: relative;
-   
-    
   }
-  .text-container{
-    
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
   
   .img-title{
-  color: white;
+  color: rgb(250, 250, 250);
   margin: 0;
   font-weight: 700;
   font-size: 1.25rem;
@@ -219,16 +211,84 @@
   .img-links{
       font-weight: 600;
       font-size: 1rem;
-     color: white;
+     color: rgb(250, 249, 249);
   }
   #font-size-2{
      font-size: 1.75rem;
   }
-  
+    .flower-photo-1,.flower-photo-2,.flower-photo-3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
  
- 
-  
-   
+    }
+   .text-container-1{
+       position: absolute;
+      
+   }
+   /* Join-the-colorful-Bunch-s4 */
+   .Join-the-colorful-Bunch-s4{
+      margin-top:120px;
+      
+   }
+   .bg-img-container-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    
+   }
+   /* .background-img{
+      width: 100%;
+   } */
+   .search-box{
+    position: absolute; 
+   }
+   .search-title{
+     font-weight: 700;
+     font-size:3.12rem ;
+     color: white;
+     margin-bottom: 20px;
+     text-align: center;
+   }
+   form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 600px;
+     background-color: white;
+     height: 55px;
+   }
+ form input{
+  flex: 1;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+ }
+ form button{
+      background-color: rgba(233, 90, 8, 1);
+      padding: 19px 52px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: white;
+      border: none;
+ }
+
+
+
+   .btn-primary{
+     padding: 19px 53px;
+     font-weight: 600;
+     font-size: 1rem;
+     background-color: rgba(233, 90, 8, 1);
+     color: white;
+     border: none;
+
+   }
 
 
 
@@ -251,7 +311,7 @@
      }
      .banner-img-container{
         width: 100%;
-        /* text-align: center; */
+       
      }
      .banner-img{
         max-width: 100%;
@@ -320,18 +380,9 @@
     flex-direction: column;
     gap: 20px;
   }
-
-   .image-latest {
+  .image-latest {
     width: 100%;
   } 
-
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
   .section-description{
     padding: 0;
   }
@@ -341,5 +392,20 @@
   #font-size-2{
      font-size: 1rem;
   }
+  .Join-the-colorful-Bunch-s4{
+    margin-top: 40px;
+  }
+   .background-img{
+      height: 276px;
+      width: 100%;
+      
+   }
+  .search-title{
+    font-size:1.25rem ;
+  }
+   form button{
+    padding: 19px 12px;
+   }  
+  
 }
 
