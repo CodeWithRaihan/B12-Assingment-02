@@ -460,11 +460,17 @@
    .logo-text{
     font-size: 0.9rem;
    }
+   .footer-box1{
+     margin-left: 40px;
+   }
    .footer-box4 {
     position: static;
+    margin-left: 30px;
 
    }
    .logo-text{
      max-width: 359px;
+     
    }
+
 }
